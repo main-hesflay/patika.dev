@@ -1,0 +1,43 @@
+/* Navbar Start*/
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-bar ul li a {
+    padding: 0rem 1rem;
+}
+/* Navbar End*/
+
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+
+/* metin veya paragrafları ortalama */
+.text-center {
+    text-align: center;
+}
+
+/* Başlık Etiketlerin renkleri */
+h1 {
+    color: red;
+}
+
+h2 {
+    color: purple;
+}
+
+h4 {
+    color: peru;
+}
