@@ -1,1 +1,1 @@
-Burada display mantığını anlattık
+Burada ise display mantığını yaptık yani hangi ekranlarda içeriğin gözüküp gözükmeyeceğini belirttik.
