@@ -1,0 +1,1 @@
+Burada display mantığını anlattık
