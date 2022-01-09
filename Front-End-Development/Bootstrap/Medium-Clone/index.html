@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/medium.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <title>Medium Clone</title>
+</head>
+
+<body>
+  <div class="bg-openblue border-bottom-dark py-1 fixed-top">
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://medium.com">
+            <img src="assets/medium.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="https://medium.com/about?autoplay=1">Our story</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="https://medium.com/membership?source=about_page---membership_top_nav_link-----------------------about_page_membership_top_nav_link-&utm_source=about&utm_medium=landing-page&utm_campaign=membership&utm_content=top-nav">Membership</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="https://medium.com/creator-tools?source=membership_page---creators_top_nav_link-----------------------membership_page_creators_top_nav_link-&utm_source=membership&utm_medium=landing-page&utm_campaign=creators&utm_content=top-nav">Write</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Sign In</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link btn btn-dark text-light rounded-pill ms-3" href="#">Get Started</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    </div>
+  </div>
+
+  <div class="bg-openblue py-4 border-bottom-dark mt-5">
+    <div class="container">
+      <div class="row mt-4">
+          <div class="col-7">
+            <h1 class="display-3">
+              Medium is a place <br> to write, read, and <br> connect
+            </h1>
+            <p class="text-dark lead">
+              It's easy and free to post your thinking on any topic and <br> connect with millions of readers.
+            </p>
+            <a href="https://medium.com/m/signin" class="btn btn-light text-dark border border-dark rounded-pill">Start Writing</a>
+          </div>
+          <div class="col-5">
+            <img src="assets/image.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- Middle -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 mb-2">
+          <h6><i class="fas fa-rocket"></i><small class="fw-bold ms-2">TRENDING ON MEDIUM</small></h6>
+        </div>
+
+        <!-- User 01 -->
+        <article class="col-4 mb-3">
+          <div class="row mt-2">
+            <div class="col-1">
+              <h6 class="text-black-50 fs-4">01</h6>
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="assets/user1.png" style="width: 20px; height: 20px;">
+              <span class="small ms-1">Arthur Hayes</span>
+              <h6 class="mt-2">
+                <strong class="fs-5">Maelstrom</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 7</li>
+                <li class="list-inline-item">17 min read</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- User 02 -->
+        <article class="col-4 mb-3">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50 fs-4">02</h6>
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="assets/user2.png" style="width: 20px; height: 20px;">
+              <span class="small ms-1">SundaeSwap Labs</span>
+              <h6 class="mt-2">
+                <strong class="fs-5">Expectations, Congestion, & Mainnet Launch.</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 7</li>
+                <li class="list-inline-item">4 min read</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- User 03 -->
+        <article class="col-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50 fs-4">03</h6>
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="assets/user3.jpeg" style="width: 20px; height: 20px;">
+              <span class="small ms-1">Dmitrii Eliuseev
+                <small class="text-black-50">in</small>
+                <span>Dev Genius</span>
+              </span>
+              <h6 class="mt-2">
+                <strong class="fs-5">Nude Pictures on early Retro PCs — Was it Possible?</strong>
+              </h6>
+
+              <ul class="list-inline small text-muted">
+                <li class="list-inline-item">Jan 5</li>
+                <li class="list-inline-item">10 min read</li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star small"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- User 04 -->
+        <article class="col-4">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50 fs-4">04</h6>
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="assets/user4.jpeg" style="width: 20px; height: 20px;">
+              <span class="small ms-1">Ali Haider</span>
+              <small class="text-black-50">in</small>
+              <span>Level Up Coding</span>
+              <h6 class="mt-2">
+                <strong class="fs-5">Automate WhatsApp Messages with Python Instantly!</strong>
+              </h6>
+
+              <ul class="list-inline small text-muted">
+                <li class="list-inline-item">Dec 31,2021</li>
+                <li class="list-inline-item">17 min read</li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star small"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- User 05 -->
+        <article class="col-4">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50 fs-4">05</h6>
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="assets/user5.png" style="width: 20px; height: 20px;">
+              <span class="small ms-1">Coinbase</span>
+              <small class="text-black-50">in</small>
+              <span>The Coinbase Blog</span>
+              <h6 class="mt-2">
+                <strong class="fs-5">10 Predictions for Web3 and the Cryptoeconomy for 2022</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 7</li>
+                <li class="list-inline-item">17 min read</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- User 06 -->
+        <article class="col-4 mb-5">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50 fs-4">06</h6>
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="assets/user6.png" style="width: 20px; height: 20px;">
+              <span class="small ms-1">Andrew Lombarti</span>
+              <small class="text-black-50">in</small>
+              <span>Towards Data Science</span>
+              <h6 class="mt-2">
+                <strong class="fs-5">7 Data Science Projects You Should Do to Make Your Resume Stand Out</strong>
+              </h6>
+
+              <ul class="list-inline small text-muted">
+                <li class="list-inline-item">Jan 7</li>
+                <li class="list-inline-item">17 min read</li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star small"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!-- Middle End -->
+    
+    </div> <!-- Container - end -->
+ 
+    <!-- 2. Middle -->
+    <div class="border-top-dark">
+      <div class="container">
+        <div class="row mt-5 pt-4">
+          <section class="col-sm-8">
+            <!-- User 1 -->
+            <article class="row mb-5">
+              <div class="col-8">
+                <img class="rounded-circle" src="assets/user7.jpeg" style="width: 20px; height: 20px;">
+                <span class="small ms-1">David Goodman</span>
+                <h6 class="mt-2">
+                  <strong class="fs-4">After confronting death & Trump mob “it’s an all-hands-on-deck moment” to defend...</strong>
+                </h6>
+                <p class="text-secondary">
+                  The Vermont Conversation with David Goodman is a VTDigger podcast that features in-depth interviews on local and national
+                </p>
+                <ul class="list-inline small text-muted">
+                  <li class="list-inline-item">Jan 6</li>
+                  <li class="list-inline-item">19 min read</li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star small"></i>
+                  </li>
+                </ul>
+                
+              </div>
+              <div class="col-4">
+                <img src="assets/Image1.jpg">
+              </div>
+            </article>
+  
+            <!-- User 2 -->
+            <article class="row mb-5">
+              <div class="col-8">
+                <img class="rounded-circle" src="assets/user8.jpeg" style="width: 20px; height: 20px;">
+                <span class="small ms-1">Scott Belsky</span>
+                <small class="text-black-50">in</small>
+                <span class="small">Positive Slope</span>
+                <h6 class="mt-2">
+                  <strong class="fs-4">10 Forecasts For The Near Future Of Tech</strong>
+                </h6>
+                <p class="text-secondary">
+                  How will work and life change in a material way over the next ~5 years? This is the question I challenge myself to think about every...
+                </p>
+                <ul class="list-inline small text-muted">
+                  <li class="list-inline-item">Dec 31,2021</li>
+                  <li class="list-inline-item">16 min read</li>
+                </ul>
+                
+              </div>
+              <div class="col-4">
+                <img src="assets/Image2.jpeg">
+              </div>
+            </article>
+  
+            <!-- User 3 -->
+            <article class="row mb-5">
+              <div class="col-8">
+                <img class="rounded" src="assets/user9.png" style="width: 20px; height: 20px;">
+                <span class="small ms-1">Olivia Fendrich</span>
+                <small class="text-black-50">in</small>
+                <span class="small">Human Parts</span>
+                <h6 class="mt-2">
+                  <strong class="fs-4">Ode to teenhood</strong>
+                </h6>
+                <p class="text-secondary">
+                  There’s this Sylvia Plath poem called Mad Girl’s Love Song. It might just be the epitome of teen romance,
+                </p>
+                <ul class="list-inline small text-muted">
+                  <li class="list-inline-item">Dec 29,2021</li>
+                  <li class="list-inline-item">5 min read</li>
+                </ul>
+                
+              </div>
+              <div class="col-4">
+                <img src="assets/Image3.png">
+              </div>
+            </article>
+
+            <!-- User 4 -->
+            <article class="row mb-5">
+              <div class="col-8">
+                <img class="rounded" src="assets/user9.png" style="width: 20px; height: 20px;">
+                <span class="small ms-1">Sarah Stankorb</span>
+                <small class="text-black-50">in</small>
+                <span class="small">Human Parts</span>
+                <h6 class="mt-2">
+                  <strong class="fs-4">How Do You Help Someone Prepare for Their Last Move?</strong>
+                </h6>
+                <p class="text-secondary">
+                  Choosing what my parents bring to the nursing home is making me see what’s essential...
+                </p>
+                <ul class="list-inline small text-muted">
+                  <li class="list-inline-item">Jan 6</li>
+                  <li class="list-inline-item">5 min read</li>
+                </ul>
+                
+              </div>
+              <div class="col-4">
+                <img src="assets/Image4.jpeg">
+              </div>
+            </article>
+
+            <!-- User 5 -->
+            <article class="row mb-1">
+              <div class="col-8">
+                <img class="rounded-circle" src="assets/user10.jpeg" style="width: 20px; height: 20px;">
+                <span class="small ms-1">Reylia Slaby</span>
+                <h6 class="mt-2">
+                  <strong class="fs-4">Photographing Crystal</strong>
+                </h6>
+                <p class="text-secondary">
+                  A Fine Art Photoshoot in review
+                </p>
+                <ul class="list-inline small text-muted">
+                  <li class="list-inline-item">Jan 6</li>
+                  <li class="list-inline-item">3 min read</li>
+                </ul>
+                
+              </div>
+              <div class="col-4 mb-3">
+                <img src="assets/Image5.png">
+              </div>
+            </article>
+
+          </section>
+  
+          <!-- Başı -->
+          <aside class="col-sm-4 fixed-right">
+            <h6 class="fw-bold mb-4">
+              <small>
+                <strong>
+                  DISCOVER MORE OF WHAT MATTERS TO YOU
+                </strong>
+              </small>
+            </h6>
+            <ul class="list-inline small text-muted aside-buttons">
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Self</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Relationships</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Data Science</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Self</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Relationships</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Programming</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Productivity</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Javascript</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Machine Learning</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Politics</a>
+              </li>
+  
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-white btn-sm border-secondary text-white text-black-50">Health</a>
+              </li>            
+            </ul>
+
+            <div class="container mt-4">
+              <div class="row border-top-dark pt-4">
+                <div class="col">
+                  <span class="fw-bold text-black-50 me-4">Help</span>
+                  <span class="fw-bold text-black-50 me-4">Status</span>
+                  <span class="fw-bold text-black-50 me-4">Writers</span>
+                  <span class="fw-bold text-black-50 me-4">Blog</span>
+                  <span class="fw-bold text-black-50 me-4">Careers</span>
+                  <span class="fw-bold text-black-50 me-4">Privact</span>
+                  <span class="fw-bold text-black-50 me-4">Terms</span>
+                  <span class="fw-bold text-black-50 me-4">About</span>
+                  <span class="fw-bold text-black-50">Knowable</span>
+                </div>
+              </div>
+            </div> <!-- Container End -->
+          </aside>
+          <!-- Sonu -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
