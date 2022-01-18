@@ -1,0 +1,39 @@
+  .search-box {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background-image: url(../assets/search-solid.svg);
+    background-repeat: no-repeat;
+    background-position:22%;
+    background-size: 6%;
+  }
+
+  .ig-shadow {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+
+  .linkedin-logo {
+    color: #0e76a8;
+  }
+
+  .mini-profile .card-header {
+    background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
+    height: 53px;
+  }
+
+  .mini-profile {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card .pages {
+    background-image: none;
+  }
+
+  .hashtags .card-header {
+    background-image: none;
+  }
+
+  nav {
+    height: 60px;
+  }
