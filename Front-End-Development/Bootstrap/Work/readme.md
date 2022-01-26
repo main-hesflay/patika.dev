@@ -1,1 +1,1 @@
-Ekran görüntüsü tamamını göstermiyor bunun yerine dosyayı indirdikten sonra açıp inceleyebilirsiniz. :)
+### Ekran görüntüsü tamamını göstermiyor bunun yerine dosyayı indirdikten sonra açıp inceleyebilirsiniz. :)
