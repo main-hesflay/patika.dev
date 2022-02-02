@@ -1,1 +1,0 @@
-# Koşullar / Bölüm Sonu Egzersiz
