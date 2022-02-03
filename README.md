@@ -1,7 +1,7 @@
 # Front-End Developer Subjects
 >#### HTML, CSS, BOOTSTRAP, JAVASCRIPT
 
-#### Homeworks
+#### Homeworks and Lessons
 ```
 git clone https://github.com/main-hesflay/patika.dev.git
 ```
