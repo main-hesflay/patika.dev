@@ -10,9 +10,10 @@
 */
 
 let userFormDOM = document.querySelector("#userForm")
-userFormDOM.addEventListener("submit", formHandler) // Gönder butonuna Tikladiginda calisacak olan fonksiyon
 let alertDOM = document.querySelector("#alert")
+let titleNote = document.querySelector("#note")
 
+userFormDOM.addEventListener("submit", formHandler) // Gönder butonuna Tikladiginda calisacak olan fonksiyon
 
 const alertFunction = (title, message, className = "danger") => `
 <div class="alert alert-${className} alert-dismissible fade show" role="alert">
@@ -31,29 +32,27 @@ function formHandler(event) {
         addItem(USER_NAME.value, score.value) // eger username ve not bilgisi girildiyse ekle dedik
         USER_NAME.value = "" // bilgileri gönderdikten dedikten sonra sifirladik
         SCORE.value = ""
-        alertDOM.innerHTML = alertFunction(
-            "Basarili",
-            "Bilgiler Kaydedildi",
-            "success"
-        )
     } else {
-        alertDOM.innerHTML = alertFunction(
+        alertDOM.innerHTML = alertFunction( // username ve not bilgisi girilmez ise hata vericek olan kisim
             "Uyari",
             "Eksik Bilgi Girdiniz",
             "danger"
-        ) // username ve not bilgisi girilmez ise hata vericek olan kisim
+        )
     }
 }
-
 
 let userListDOM = document.querySelector("#userList") // ul id sectik
 const addItem = (userName, score) => {
     let liDOM = document.createElement("li") // yeni bir li olusturduk
+
+    titleNote.innerHTML = `
+        <h5 class="text-center fw-bolder text-warning">Notlar</h5>
+    `
     liDOM.innerHTML = `
-    ${userName}
+    <span class="fw-bolder">${userName}</span>
     <span class="badge bg-primary rounded-pill">${score}</span>
     `
 
-    liDOM.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center')
+    liDOM.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center', 'mt-3')
     userListDOM.prepend(liDOM) // li elemanina ekle dedik
 }
