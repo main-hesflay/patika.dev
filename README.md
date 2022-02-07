@@ -1,4 +1,4 @@
-# Front-End Developer Subjects
+# Beginner Front-End Developer Subjects
 >#### HTML, CSS, BOOTSTRAP, JAVASCRIPT
 
 #### Homeworks and Lessons
