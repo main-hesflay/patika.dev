@@ -1,2 +1,2 @@
 ### Asian Kitchen Work
-![Ekran Resmi]()
+![Ekran Resmi](preview.png)
