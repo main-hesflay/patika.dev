@@ -74,8 +74,8 @@ a:hover {
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
-    padding: ;
-    width: 480px;
+    margin-bottom: 20px;
+    width: 500px;
     height: 35px;
     border-radius: 20px;
     border-color: rgb(194, 191, 191);
@@ -118,6 +118,7 @@ a:hover {
 }
 
 
+
 /* Search Buttons */
 .search-buttons button {
     height: 36px;
@@ -147,9 +148,12 @@ a:hover {
     position: absolute;
 }
 
+.g-search {
+    margin-left: 500px;
+}
+
 
 /* Voice Image */
 .voice-icon {
-    margin-left: -55px;
-    margin-bottom: -8px;
+    margin-left: 1400px;
 }
