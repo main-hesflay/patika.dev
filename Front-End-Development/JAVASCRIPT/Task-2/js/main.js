@@ -5,6 +5,11 @@ const toastSuccess = document.querySelector('#toastSuccess')
 const toastFailed = document.querySelector('#toastFailed')
 const toastlistDelete = document.querySelector('#toastListDelete')
 
+function blockSpace() {
+    if(event.keyCode == 32) {
+        return false
+    }
+}
 
 btnDOM.addEventListener('click', function () {
     const liDOM = document.createElement('li')
@@ -36,5 +41,5 @@ btnDOM.addEventListener('click', function () {
 // EKSİKLİKLER
 
 // x button yapamadım onun yerine çift tıklayınca siliyor.
-// boşluk ile içerik eklemeyi önlemeyi yapamadım.
 // LocalStorage yapamadım.
+// list seçince arka plan rengini degistiremedim.
