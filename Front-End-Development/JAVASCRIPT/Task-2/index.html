@@ -46,7 +46,6 @@
     </div>
   </div>
 
-  <!-- Toast List Delete Info -->
   <div class="mr-1" style="position: relative">
     <div style="position: absolute; top: 0; right: 0">
       <div id="toastListDelete" class="toast error hide" role="alert" aria-live="assertive" aria-atomic="true"
@@ -67,7 +66,7 @@
       <img src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
         class="mb-1" alt="" />
       <h2>Yapılacaklar Listesi</h2>
-      <input type="text" id="task" placeholder="Bugün ne yapacaksın?" class="bg-dark text-white" pattern="a-zA-Z0-9">
+      <input type="text" id="task" placeholder="Bugün ne yapacaksın?" class="bg-dark text-white" pattern="a-zA-Z0-9" onkeypress="return blockSpace()">
       <span id="liveToastBtn" class="button">Ekle</span>
     </div>
 
