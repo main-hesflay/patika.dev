@@ -4,7 +4,7 @@
 
 1. Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
-![](/Tasks/img/merge-sort.png)
+![](/img/merge-sort.png)
 
 #
 
