@@ -14,4 +14,4 @@ Solundaki sayı: 3
 
 1. Yukarıdaki dizinin Binary-Search-Tree aşamalarını yazınız.
 
-![](/Tasks/img/binary-search-tree.png)
+![](img/binary-search-tree.png)
