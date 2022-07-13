@@ -1,5 +1,8 @@
 ![](preview.png)
 
+####> Note: aldığım notlarda bir yanlışlık varsa eğer lütfen çekinmeyin söyleyin bende o hatamı düzeltip sizlerin sayesinde daha iyi anlamış olurum.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
