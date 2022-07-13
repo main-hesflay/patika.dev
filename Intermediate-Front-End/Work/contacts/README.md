@@ -1,6 +1,6 @@
 ![](preview.png)
 
-####> Note: aldığım notlarda bir yanlışlık varsa eğer lütfen çekinmeyin söyleyin bende o hatamı düzeltip sizlerin sayesinde daha iyi anlamış olurum.
+#### Note: aldığım notlarda bir yanlışlık varsa eğer lütfen çekinmeyin söyleyin bende o hatamı düzeltip sizlerin sayesinde daha iyi anlamış olurum.
 
 
 # Getting Started with Create React App
