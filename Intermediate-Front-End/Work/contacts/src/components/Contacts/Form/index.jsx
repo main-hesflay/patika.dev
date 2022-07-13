@@ -21,7 +21,7 @@ function Form({ addContact, contacts }) {
 
     const onSubmit = (event) => {
 
-        /* buton submit edildiğinde yenileme olayını durdurduk. */
+        /* buton submit edildiğinde yenileme olayını durdurduk ve eski değerleri koruyarak atama işlemini yaptık. */
         event.preventDefault();
 
         // eğer input değeri boş ise bunu ekleme dedik.
@@ -30,7 +30,6 @@ function Form({ addContact, contacts }) {
             return false;
         }
 
-        // eski değerleri koruyarak atama işlemi yaptık.
         addContact([ ...contacts, form ]);
 
         // veri yazıldıktan sonraki halini log ile görüntülüyoruz.
