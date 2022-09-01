@@ -1,5 +1,5 @@
 # Front-End Developer Subjects
->#### HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT
+>#### HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT, GO
 #### Task And End of Chapter exercise
 
 ```
