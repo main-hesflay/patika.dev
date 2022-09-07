@@ -14,7 +14,7 @@ func main() {
 		fmt.Println(blockVar)
 	}
 
-	name, surName := "Hesflay", "Dibo" // redeclaration
+	name, surName := "Hesflay", "Dibo" // redeclare
 
 	var funcVar = "Func Scope"
 	fmt.Println(funcVar)
