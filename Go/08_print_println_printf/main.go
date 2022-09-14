@@ -33,5 +33,3 @@ func main() {
 	// fmt.Printf("My name's %v and I'm %v years old.", name, age)
 
 }
-
-// it's not over :)
